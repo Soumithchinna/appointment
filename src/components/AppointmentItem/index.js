@@ -17,7 +17,7 @@ const AppointmentItem = props => {
       <div className="appointment-container">
         <p className="title">{title}</p>
         <button
-          data-testid="star"
+          testid="star"
           type="button"
           className="star-button"
           onClick={onClickStar}
